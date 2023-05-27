@@ -4,6 +4,7 @@ import {BsFillPlayFill} from 'react-icons/bs'
 import {BiArrowBack} from 'react-icons/bi'
 import Songs from './Songs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 export default function Playlist() {
@@ -15,12 +16,12 @@ export default function Playlist() {
   </div>
   </Link> 
   <div className="flex items-center justify-center mb-6">
-    <img src="https://media.tenor.com/zw-Y19CGWtkAAAAM/snoopy-music.gif" alt="Playlist Image" className="w-60 h-60 mt-10" />
+    <Image src="https://media.tenor.com/zw-Y19CGWtkAAAAM/snoopy-music.gif" alt="Playlist Image" className="w-60 h-60 mt-10" />
   </div>
   <p className='font-bold text-2xl mb-4'>Name of the playlist</p>
   <p className="text-white mb-4">Description of the playlist</p>
   <div className="flex items-center mb-4">
-    <img src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" alt="User Image" className="w-8 h-8 rounded-full" />
+    <Image src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" alt="User Image" className="w-8 h-8 rounded-full" />
     <h3 className="text-lg font-semibold ml-2">User Name</h3>
   </div>
   <div className="flex items-center justify-between mb-4">

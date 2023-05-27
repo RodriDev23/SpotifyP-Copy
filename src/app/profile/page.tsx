@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { BiArrowBack } from "react-icons/bi"
+import Image from "next/image"
 
 
 
@@ -14,8 +15,8 @@ export default function profile() {
        
    <div className="flex flex-col justify-between items-center">
       <div className="flex items-center justify-center">
-    <img src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" className="w-40 h-40 object-cover rounded-full mt-20 absolute" /> 
-    <img src="https://wallpaperaccess.com/full/5276.jpg" className="mb-36 px-[-20] w-full h-full object-cover rounded-lg"  /> 
+    <Image alt="friendsOnline2" src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" className="w-40 h-40 object-cover rounded-full mt-20 absolute" /> 
+    <Image alt="FriendsOnline2" src="https://wallpaperaccess.com/full/5276.jpg" className="mb-36 px-[-20] w-full h-full object-cover rounded-lg"  /> 
   </div>
   <div>
     <p className="font-bold text-2xl mb-3">UserName</p>
@@ -54,14 +55,14 @@ export default function profile() {
           </Link>
           
           <div className="flex items-center ">
-            <img src="https://i.pinimg.com/originals/79/cf/84/79cf8479dbc0077086e60a02d85f570c.jpg" alt="Playlist" className="w-12 h-12 rounded cursor-pointer" />
+            <Image src="https://i.pinimg.com/originals/79/cf/84/79cf8479dbc0077086e60a02d85f570c.jpg" alt="Playlist" className="w-12 h-12 rounded cursor-pointer" />
             <div className="flex flex-col ml-4">
               <span className="text-lg font-bold cursor-pointer">Feelings</span>
               <span className="text-gray-200">8 tracks</span>
             </div>
           </div>
           <div className="flex items-center">
-            <img src="https://gifdb.com/images/thumbnail/will-smith-party-dance-y19ckfrv75lsw6is.gif" alt="Playlist" className="w-12 h-12 rounded cursor-pointer" />
+            <Image src="https://gifdb.com/images/thumbnail/will-smith-party-dance-y19ckfrv75lsw6is.gif" alt="Playlist" className="w-12 h-12 rounded cursor-pointer" />
             <div className="flex flex-col ml-4">
               <span className="text-lg font-bold cursor-pointer">Party Time</span>
               <span className="text-gray-200 cursor-pointer">12 tracks</span>

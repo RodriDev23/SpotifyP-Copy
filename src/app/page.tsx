@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Square from './Components/Square'
 import Artist from './Components/Artist'
 import FriendOnline from './Components/FriendsOnline'

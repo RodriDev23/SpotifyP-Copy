@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import MiniPlayer from './MiniPlayer';
+import Image from 'next/image';
 
 
 export default function FriendOnline() {
@@ -8,7 +9,8 @@ export default function FriendOnline() {
 
   return (
     <div className="w-28 h-20 m-0 rounded-lg shadow-lg flex flex-col justify-center items-center">
-      <img
+      <Image
+        alt='friendsOnline'
         src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b"
         className="w-full h-40 object-cover rounded-full border border-green-500 cursor-pointer"
         onClick={() => setShowMiniPlayer(true)}

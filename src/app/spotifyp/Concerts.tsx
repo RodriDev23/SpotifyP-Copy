@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
 // Import Swiper styles
 import "swiper/css";
@@ -40,14 +41,14 @@ const ConcertsP = () => {
             <div className="flex flex-col items-center justify-center p-4 gap-4">
       <div className='flex justify-center items-center gap-5'>
         <h2 className="text-2xl font-bold "> Artist:Feid</h2>
-        <img
+        <Image
           src="https://i.scdn.co/image/ab67616d00001e027cc7b0d6a82846cd8b158f99"
           alt="artist"
           className='w-[30%] h-[10%] rounded-full object-cover mb-4 mt-1'
         />
       </div>
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src="https://vid.alarabiya.net/images/2021/11/17/4c04b599-5537-4af8-bea2-8ad119051f6f/4c04b599-5537-4af8-bea2-8ad119051f6f.JPG?crop=4:3&width=1200"
           alt=""
           className="w-[100%] h-[40%] object-cover flex justify-center items-center rounded-md"
@@ -69,14 +70,14 @@ const ConcertsP = () => {
       <div className='flex justify-center items-center gap-5'>
           <h2 className="text-2xl font-bold ml-4">Artist:Drake
           </h2>
-        <img
+        <Image
           src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b"
           alt="artist"
           className='w-[30%] h-[10%] rounded-full object-cover mb-4 mt-1'
         />
       </div>
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src="https://ww3.hdnux.com/photos/36/00/25/7865690/9/rawImage.jpg"
           alt="stadiums"
           className="w-[100%] h-[40%] object-cover flex justify-center items-center rounded-md"
@@ -98,14 +99,14 @@ const ConcertsP = () => {
       <div className='flex justify-center items-center gap-5'>
           <h2 className="text-2xl font-bold ml-4">Artist:Lil Baby
           </h2>
-        <img
+        <Image
           src="https://i.scdn.co/image/ab6761610000e5eb6cad3eff5adc29e20f189a6c"
           alt="artist"
           className='w-[30%] h-[10%] rounded-full object-cover mb-4 mt-1'
         />
       </div>
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppU_ZicLBIZI8_gaxzQu-5CHNixSfvPezrLUYGG4bSt-ZHYrwE40NNgXcCX8YDDm5CIo&usqp=CAU"
           alt="stadiums"
           className="w-[100%] h-[40%] object-cover flex justify-center items-center rounded-md"
