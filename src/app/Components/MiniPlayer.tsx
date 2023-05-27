@@ -33,7 +33,8 @@ const MiniPlayer: React.FC<MiniPlayerProps> = ({ imageUrl, songDuration, setShow
       </div>
 
       <div className="bg-black border border-green-600 text-white rounded-lg py-14 px-11 flex flex-col items-center justify-center">
-        <Image src="https://i.scdn.co/image/ab67616d0000b2738e8753ff69b7efb6f8e146cd" alt="Song Cover" className="w-40 h-40" />
+        <Image src="https://i.scdn.co/image/ab67616d0000b2738e8753ff69b7efb6f8e146cd" 
+        width={200} height={30} alt="Song Cover" className="w-40 h-40" />
         <p className="mt-3">Artist: Feid</p>
         <p>Song : Porfa ft Justin Quiles</p>
 

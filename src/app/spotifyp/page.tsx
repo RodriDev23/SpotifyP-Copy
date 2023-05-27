@@ -11,7 +11,9 @@ export default function spotifyp(){
       <div>
        <div className="flex justify-between items-center h-12 px-4 border-b-0 mt-10">
     <div className="flex items-center justify-center">
-        <Image src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" alt="user" className="w-20 h-20 object-cover rounded-full border border-green-500 cursor-pointer mr-4" / >
+        <Image src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b" 
+        width={40} height={40}
+        alt="user" className="w-20 h-20 object-cover rounded-full border border-green-500 cursor-pointer mr-4" / >
     </div>
     <input type="text" placeholder="Share your music" className="w-4/5 h-20 rounded-md border-2 border-green-500 bg-black text-green-500 px-4" />
    </div>

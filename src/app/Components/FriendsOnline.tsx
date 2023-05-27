@@ -13,6 +13,7 @@ export default function FriendOnline() {
         alt='friendsOnline'
         src="https://i.scdn.co/image/ab6775700000ee8570dd928d108eab4eba7caf3b"
         className="w-full h-40 object-cover rounded-full border border-green-500 cursor-pointer"
+        width={200}  height={200}
         onClick={() => setShowMiniPlayer(true)}
       />
       <p className="text-lg text-center mt-3">User</p>

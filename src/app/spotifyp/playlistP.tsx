@@ -64,7 +64,7 @@ const PlaylistP: React.FC = () => {
       <div className="flex items-center justify-center mt-4">
         <div className="flex items-center bg-black border border-green-500 text-green-500 rounded-md p-4 w-[90%] md:w-[50%] lg:w-[30%] mt-5">
           <div>
-            <Image src={sliderItems[currentIndex].songCover} alt="song cover" className="w-16 h-16 rounded-full object-cover mb-48" />
+            <Image src={sliderItems[currentIndex].songCover} alt="song cover" className="w-16 h-16 rounded-full object-cover mb-48" width={40} height={40}/>
           </div>
           <div className="flex flex-col flex-grow">
             <div className="flex items-start justify-between">
@@ -84,7 +84,7 @@ const PlaylistP: React.FC = () => {
               </button>
             </div>
             <div className="flex items-center">
-              <Image src={sliderItems[currentIndex].albumPic} alt="album pic" className="h-28 w-28 object-cover mr-3 max-w-[10rem]  ml-16" />
+              <Image src={sliderItems[currentIndex].albumPic} alt="album pic" className="h-28 w-28 object-cover mr-3 max-w-[10rem]  ml-16" height={50} width={100} />
             </div>
             <a href={sliderItems[currentIndex].spotifyLink} className="bg-green-400 text-black font-bold py-1 px-3 rounded hover:bg-green-600 mt-3 max-w-sm w-[70%] flex justify-center items-center ml-6">
           Listen on Spotify
