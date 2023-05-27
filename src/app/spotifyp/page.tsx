@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import PublicationP from "./postP"
 import PlaylistP from "./playlistP"
