@@ -8,6 +8,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {SlPeople} from 'react-icons/sl'
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 
